@@ -1,0 +1,48 @@
+img {
+    width: 15%;
+}
+
+div img {
+    width: 25%;
+    margin: 3.6666%;
+    transition: 0.75s;
+}
+
+div img:hover {
+    border-radius: 10%;
+    box-shadow: 0 0.5em 1em -0.4em;
+    transform: translateY(-0.85em);
+
+}
+
+nav div {
+    text-transform: uppercase;
+    border-bottom: 2px solid #f3e1e1;
+    width: 30%;
+    margin-left: 1.6666%;
+    padding: 1.25em 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+    transition: margin-left 2s;
+
+}
+
+nav:hover div {
+    margin-left: 500px;
+    transition-timing-function: linear;
+
+}
+
+.ok {
+    padding-top: 2.70rem;
+    padding-bottom: 2.70rem;
+    background-color: #023047;
+}
+
+.connect {
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    margin-left: 2em;
+    font-size: 3em;
+
+}
